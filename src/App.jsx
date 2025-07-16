@@ -1,5 +1,3 @@
-import React from 'react'
-
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 flex items-center justify-center p-4">
@@ -10,7 +8,7 @@ function App() {
             Hello World!
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
-            Welcome to your React + Vite + Tailwind CSS application
+            Welcome to your React + Vite + Tailwind CSS v4 application
           </p>
           
           {/* Feature cards */}
@@ -45,7 +43,7 @@ function App() {
 
         {/* Footer */}
         <div className="mt-8 text-white/70 text-sm">
-          <p>Built with ❤️ using React, Vite, and Tailwind CSS</p>
+          <p>Built with ❤️ using React, Vite, and Tailwind CSS v4</p>
         </div>
       </div>
     </div>
