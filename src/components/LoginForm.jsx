@@ -1,6 +1,15 @@
+import Datepicker from "./Datepicker";
+import { useNavigate } from 'react-router';
+
 function LoginForm() {
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Simulate login success
+    navigate('/home');
+  };
   return (
-    <form className="space-y-6">
+    <form className="space-y-6" onSubmit={handleSubmit}>
       <div>
         <input
           type="email"
@@ -17,6 +26,7 @@ function LoginForm() {
           required
         />
       </div>
+      <Datepicker/>
       <button
         type="submit"
         className="w-full font-semibold py-3 px-8 rounded-full transition-colors duration-200 shadow bg-green-500 text-white hover:bg-green-600 hover:text-white text-base mt-2"

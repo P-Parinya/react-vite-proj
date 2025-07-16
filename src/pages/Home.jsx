@@ -1,5 +1,5 @@
 import FeatureCards from '../components/FeatureCards';
-import LoginButton from '../components/LoginButton';
+import Datepicker from '../components/Datepicker';
 
 function Home() {
   return (
@@ -10,10 +10,10 @@ function Home() {
           <p className="text-lg md:text-2xl text-green-600 mb-8 font-light">
             Welcome to your React + Vite + Tailwind CSS v4 application
           </p>
-          <FeatureCards />
-          <div className="flex justify-center">
-            <LoginButton />
+          <div className="flex justify-center mb-8">
+            <Datepicker />
           </div>
+          <FeatureCards />
         </div>
       </main>
       <footer className="w-full py-6 text-center text-green-700 text-sm bg-green-50 border-t border-green-100">
